@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-purple-700 rounded-full flex items-center justify-center border border-gray-400">
               <span className="text-white">AI</span>
             </div>
-            <span className="ml-3 text-white text-lg">AI Startup Kit</span>
+            <span className="ml-1 text-white text-sm">AI Startup Kit</span>
           </div>
 
           {/* Social Icons Section */}
@@ -27,11 +27,11 @@ const Footer = () => {
         </div>
 
         {/* Right Section (Links) */}
-        <div className="grid grid-cols-4 gap-y-6 text-right w-full"> {/* Adjusted for right section */}
+        <div className="grid grid-cols-4 text-right w-1/2"> {/* Adjusted for right section */}
           {/* Product Links */}
           <div className="text-center"> {/* Center-aligned */}
-            <h3 className="text-white mb-4 text-base tracking-wider" style={{ letterSpacing: '0.75px' }}>Product</h3>
-            <ul className="space-y-2 text-sm" style={{ letterSpacing: '0.75px' }}>
+            <h3 className="text-white mb-4 text-base tracking-wider" >Product</h3>
+            <ul className="space-y-5 text-sm" >
               <li>Features</li>
               <li>Integration</li>
               <li>Updates</li>
@@ -42,8 +42,8 @@ const Footer = () => {
 
           {/* Company Links */}
           <div className="text-center"> {/* Center-aligned */}
-            <h3 className="text-white mb-4 text-base tracking-wider" style={{ letterSpacing: '0.75px' }}>Company</h3>
-            <ul className="space-y-2 text-sm" style={{ letterSpacing: '0.75px' }}>
+            <h3 className="text-white mb-4 text-base tracking-wider" >Company</h3>
+            <ul className="space-y-5 text-sm">
               <li>About</li>
               <li>Blog</li>
               <li>Careers</li>
@@ -55,8 +55,8 @@ const Footer = () => {
 
           {/* Resources Links */}
           <div className="text-center"> {/* Center-aligned */}
-            <h3 className="text-white mb-4 text-base tracking-wider" style={{ letterSpacing: '0.75px' }}>Resources</h3>
-            <ul className="space-y-2 text-sm" style={{ letterSpacing: '0.75px' }}>
+            <h3 className="text-white mb-4 text-base tracking-wider" >Resources</h3>
+            <ul className="space-y-5 text-sm" >
               <li>Examples</li>
               <li>Community</li>
               <li>Guides</li>
@@ -66,8 +66,8 @@ const Footer = () => {
 
           {/* Legal Links */}
           <div className="text-center"> {/* Center-aligned */}
-            <h3 className="text-white mb-4 text-base tracking-wider" style={{ letterSpacing: '0.75px' }}>Legal</h3>
-            <ul className="space-y-2 text-sm" style={{ letterSpacing: '0.5px' }}>
+            <h3 className="text-white mb-4 text-base tracking-wider">Legal</h3>
+            <ul className="space-y-5 text-sm " >
               <li>Privacy</li>
               <li>Terms</li>
               <li>Security</li>

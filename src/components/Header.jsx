@@ -27,7 +27,7 @@ const Header = () => {
         </nav>
 
         {/* Join Waitlist Button */}
-        <button className="bg-gradient-to-r from-purple-500 to-purple-700 text-white px-3 py-1 md:px-4 md:py-2 rounded-full hover:opacity-90">
+        <button className="bg-gradient-to-r from-purple-500 to-purple-700 text-white px-3 py-1 md:px-4 md:py-2 rounded-xl border-gray-600 hover:opacity-90">
           Join waitlist
         </button>
       </div>

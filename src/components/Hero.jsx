@@ -15,7 +15,7 @@ function Hero() {
 					Elevate your site’s visibility effortlessly with AI, where smart technology meets user-friendly SEO tools.
 				</p>
 				<div className="border  border-[#FFFFFF1A] rounded-lg p-2 mt-5">
-					<button className="bg-white py-2 px-4 rounded-lg text-base">Start for free</button>
+					<button className="bg-white text-black py-2 px-4 rounded-lg text-base">Start for free</button>
 				</div>
 			</div>
 

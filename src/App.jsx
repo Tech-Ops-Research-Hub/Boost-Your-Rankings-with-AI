@@ -4,6 +4,9 @@ import Hero from './components/Hero'
 import Bento from './components/Bento';
 import Features from './components/Features';
 import Footer from './components/Footer';
+import Pricing from './components/Pricing';
+import Clients from './components/Clients';
+import SEO from './components/SEO';
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
 				<Hero />
 				<Bento />
 				<Features />
+        <Clients />
+        <Pricing />
+        <SEO />
 	</main>
 
       {/* Footer Section */}

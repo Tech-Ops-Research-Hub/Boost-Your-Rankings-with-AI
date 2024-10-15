@@ -1,7 +1,7 @@
 
 # Boost Your Rankings with AI
 
-Welcome to **Boost Your Rankings with AI**, a project aimed at leveraging artificial intelligence to enhance website rankings and improve online visibility. This repository contains both the frontend and backend components of the application.
+Welcome to **Boost Your Rankings with AI**, a project aimed at leveraging artificial intelligence to enhance website rankings and improve online visibility. This repository contains the components of the application.
 
 ## Live Demo
 

@@ -52,34 +52,6 @@ To run this project locally, follow these steps:
    ```bash
    cd backend
    pip install -r requirements.txt
-   ```
-
-## Usage
-
-1. Start the backend server:
-   ```bash
-   cd backend
-   python app.py
-   ```
-
-2. Start the frontend application:
-   ```bash
-   cd frontend
-   npm start
-   ```
-
-3. Navigate to `http://localhost:3000` in your web browser to view the application.
-
-## Environment Variables
-
-You need to set up the following environment variables for the backend:
-
-- `FLASK_APP`: The entry point of your application (e.g., `app.py`)
-- `FLASK_ENV`: Set to `development` or `production`
-- `SECRET_KEY`: A secret key for your Flask application
-- `DATABASE_URL`: The URL for your database connection
-
-You can create a `.env` file in the `backend` directory to store these variables.
 
 ## Contributing
 

@@ -1,4 +1,3 @@
-Here’s the complete content for your `README.md` file, formatted in a single code block for easy copying:
 
 # Boost Your Rankings with AI
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import Avatar from "/src/assets/images/Avatar@3x 1.png";
 
 const Clients = () => {
   return (
@@ -16,7 +17,7 @@ const Clients = () => {
           <div className="flex justify-center md:justify-center">
             <div className="w-64 h-64 bg-purple-700 rounded-lg overflow-hidden">
               <img
-                src="src/assets/images/Avatar@3x 1.png"
+                src={Avatar}
                 alt="Client"
                 className="w-full h-full object-cover filter grayscale"
               />

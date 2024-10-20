@@ -1,4 +1,14 @@
 import Logo from './Logo';
+import Heroimg from "/src/assets/images/hero-img.png";
+import Acme from "/src/assets/images/acme.png";
+import Echo from "/src/assets/images/echo-valley.png";
+import Quantum from "/src/assets/images/quantum.png";
+import Pulsew from "/src/assets/images/pulsew.png";
+import Outside from "/src/assets/images/outside.png";
+import Apex from "/src/assets/images/apex.png";
+import Celestial from "/src/assets/images/celestial.png";
+import Twice from "/src/assets/images/twice.png";
+
 
 function Hero() {
 	return (
@@ -25,21 +35,21 @@ function Hero() {
 
 			<div className="w-full mt-[-11rem] md:mt-[-36rem] md:h-[51rem] bg-[#602A9A] blur-2xl z-30"></div>
 			<div className="mx-6 md:mt-[-50rem] rounded-xl p-2 bg-gradient-to-l from-[#0D0718] via-[#0F081B00] to-[#0B0614] z-30">
-				<img className="" src="../src/assets/images/hero-img.png" alt="hero image" />
+				<img className="" src={Heroimg} alt="hero image" />
 			</div>
 			<div className='w-full  h-[32rem] md:mt-[-32rem] bg-gradient-to-b from-transparent via-black to-black z-30'></div>
 
 			<div className="companies w-full bg-black flex flex-col mt-[-20rem] text-gray-400 font-light z-30">
 				<p className="text-center">Trusted by the world’s most innovative teams</p>
 				<div className="logos flex flex-row justify-center flex-wrap gap-2 mt-8 pb-14">
-					<Logo imgSrc={'src/assets/images/acme.png'}/>
-					<Logo imgSrc={'src/assets/images/echo-valley.png'}/>
-					<Logo imgSrc={'src/assets/images/quantum.png'}/>
-					<Logo imgSrc={'src/assets/images/pulsew.png'}/>
-					<Logo imgSrc={'src/assets/images/outside.png'}/>
-					<Logo imgSrc={'src/assets/images/apex.png'}/>
-					<Logo imgSrc={'src/assets/images/celestial.png'}/>
-					<Logo imgSrc={'src/assets/images/twice.png'}/>
+					<Logo imgSrc={Acme}/>
+					<Logo imgSrc={Echo}/>
+					<Logo imgSrc={Quantum}/>
+					<Logo imgSrc={Pulsew}/>
+					<Logo imgSrc={Outside}/>
+					<Logo imgSrc={Apex}/>
+					<Logo imgSrc={Celestial}/>
+					<Logo imgSrc={Twice}/>
 				</div>
 			</div>
 		</div>

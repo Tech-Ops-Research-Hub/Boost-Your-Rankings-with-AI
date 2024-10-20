@@ -2,7 +2,7 @@ import React from 'react';
 
 const SEO = () => {
   return (
-    <section className="relative bg-black text-white py-24" >
+    <section className="w-full relative bg-black text-white py-24" >
       {/* Gradient Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-purple-700 to-black opacity-80"></div>
 

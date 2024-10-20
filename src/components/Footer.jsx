@@ -3,8 +3,8 @@ import { FaInstagram, FaYoutube, FaTimes } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer
-      className="text-gray-400 p-10 sm:p-16 border border-gray-600 mx-auto"
-      style={{ width: '1195px', height: '408px', backgroundColor: 'black' }} // Explicit black background color
+      className="w-full text-gray-400 p-10 sm:p-16 border border-gray-600 mx-auto"
+      style={{height: '408px', backgroundColor: 'black' }} // Explicit black background color
     >
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start h-full">
         

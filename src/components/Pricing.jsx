@@ -3,7 +3,7 @@ import React from 'react';
 function Pricing() {
   return (
     <>
-      <div className="text-center py-4 bg-gradient-radial from-purple-700 via-black to-black min-h-screen">
+      <div className="text-center py-4 bg-gradient-radial from-purple-700 via-black to-black mt-20">
         <h1 className="text-5xl font-bold mb-2 text-white">Pricing</h1>
         <p className="text-lg text-gray-400 mb-6">
           Choose the right plan to meet your SEO needs and start optimizing today.
@@ -18,7 +18,7 @@ function Pricing() {
         </div>
       </div>
 
-      <div className="flex justify-center space-x-6 mt-4">
+      <div className="flex justify-center space-x-6 mb-20">
         {/* Pricing Plan 1 */}
         <div className="bg-[#1E1E2E] rounded-lg p-6 text-center text-white w-72 shadow-lg border border-gray-600 flex flex-col justify-between">
           <div>

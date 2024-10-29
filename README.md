@@ -5,7 +5,7 @@ Welcome to **Boost Your Rankings with AI**, a project aimed at leveraging artifi
 
 ## Live Demo
 
-You can see the live application at: [Boost Your Rankings with AI](https://boost-your-rankings-with-ai.onrender.com)
+You can see the live application at: [Boost Your Rankings with AI](https://boost-your-rankings-with-ai.vercel.app/)
 
 ## Table of Contents
 
